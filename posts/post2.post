@@ -1,0 +1,16 @@
+#postID: 2
+#title: Título del post 2
+#date: 2023-07-28
+#author: Fulano de Tal
+#category: Aventuras, Viajes
+#tags: naturaleza, senderismo, montañas
+#featuredimg: posts/images/post1.webp
+
+Contenido del post...
+Puedes utilizar etiquetas HTML aquí.
+Por ejemplo, <strong>esto es texto en negrita</strong> o <em>esto es texto en cursiva</em>.
+También se admiten listas:
+<ul>
+  <li>Elemento de lista 1</li>
+  <li>Elemento de lista 2</li>
+</ul>
