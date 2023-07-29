@@ -24,6 +24,27 @@ El proyecto utiliza JavaScript para cargar dinámicamente las publicaciones desd
 
 El archivo "index.html" muestra una lista de las publicaciones disponibles con resúmenes de sus contenidos. Cuando los usuarios hacen clic en "Leer más", se redirigen a "post.html" donde pueden leer la publicación completa.
 
+## Sintaxis de los archivos .post
+
+Los archivos .post se utilizan para almacenar el contenido de las publicaciones del blog. Estos archivos siguen una estructura especial con metadatos y contenido de texto. A continuación se describe la sintaxis:
+
+- Cada archivo .post comienza con una serie de metadatos que se definen mediante etiquetas especiales, cada una en una línea separada.
+
+- Las etiquetas de metadatos están precedidas por un símbolo "#", y el valor de la etiqueta se coloca después de los dos puntos ":".
+
+- Las etiquetas de metadatos disponibles son las siguientes:
+  - `#postID`: ID del post, un número que identifica de manera única cada publicación.
+  - `#title`: Título del post.
+  - `#date`: Fecha del post en el formato "Year-month-day".
+  - `#author`: Nombre del autor del post.
+  - `#category`: Categorías del post, separadas por comas.
+  - `#tags`: Etiquetas del post, separadas por comas.
+  - `#featuredimg`: Ruta de la imagen destacada del post (ubicada en la carpeta "posts/images").
+
+- El contenido del post puede contener texto, incluyendo formato HTML si se desea.
+
+Cada archivo .post contiene la información necesaria para mostrar y cargar correctamente las publicaciones en el blog. Asegúrate de seguir esta sintaxis al crear o editar las publicaciones en los archivos .post del proyecto "vegnux-blogjs".
+
 ## Cómo Usar el Proyecto
 
 1. Clona el repositorio de GitHub.
