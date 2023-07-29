@@ -4,23 +4,6 @@ Este es un proyecto llamado "vegnux-blogjs" que consiste en un blog desarrollado
 
 ## Estructura del Proyecto
 
-vegnux-blogjs
-├── posts
-│   ├── images
-│	│	├── post1.webp
-│	│	└── post2.webp
-│   ├─ post1.post
-│   └─ post2.post
-├── index.html
-├── post.html
-├── main.js
-├── post.js
-├── styles.css
-└── README.md
-
-
-## Descripción
-
 El proyecto "vegnux-blogjs" es un blog desarrollado en JavaScript que permite mostrar y leer publicaciones. Contiene los siguientes archivos y directorios:
 
 - **posts**: Este directorio contiene los archivos de texto que representan las publicaciones del blog. Cada archivo tiene una estructura especial con información como el título, fecha, autor, categoría, etiquetas, imagen destacada y el contenido del post.
